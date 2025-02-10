@@ -23,6 +23,7 @@ td {
 }
 
 th {
+    position: sticky;
     background-color: var(--cor-fundo);
     padding: 5px;
     font-size: 1.4rem;
