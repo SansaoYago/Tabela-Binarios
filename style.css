@@ -13,6 +13,7 @@ body {
 }
 
 table {
+    position: relative&
     text-align: center;
     border-collapse: collapse;
 }
