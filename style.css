@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-    --cor-fundo: #93e0996c;;
+    --cor-fundo: #9ebaa0;;
 }
 
 * {
@@ -13,8 +13,8 @@ body {
 }
 
 table {
+    position: relative;
     text-align: center;
-    border-collapse: collapse;
 }
 
 td {
@@ -23,10 +23,15 @@ td {
 }
 
 th {
+    top: 0px;
+    position: sticky;
     background-color: var(--cor-fundo);
+    color: white;
     padding: 5px;
     font-size: 1.4rem;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.134);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.689);
+
+    box-shadow: 1px 1px 5px black;
 }
 
 td {
